@@ -10,6 +10,8 @@ public:
 
     void Update(int row, float deltaTime, bool faceRight);
 
+    sf::Vector2u get_imageCount();
+
     sf::IntRect uvRect;
 
 private:

@@ -42,3 +42,7 @@ void Animation::Update(int row, float deltaTime, bool faceRight)
         uvRect.width = -abs(uvRect.width);
     }
 }
+sf::Vector2u Animation::get_imageCount()
+{
+    return this->imageCount;
+}

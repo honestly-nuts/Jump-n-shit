@@ -4,7 +4,7 @@ LDLIBS=-lsfml-graphics -lsfml-window -lsfml-system
 all: build/bin
 
 build/bin: main.o entity.o animation.o
-	$(CC) $^ $(LDLIBS) $(LDLIBS) -o $@
+	$(CC) $^ $(LDLIBS) -o $@
 
 main.o: src/main.cpp 
 	$(CC) -c $^ -o $@
