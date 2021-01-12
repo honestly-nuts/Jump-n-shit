@@ -2,3 +2,5 @@
 Jump-n-shit is a practice game project for learning the sfml library and C++ game development
 
 ### This game may look like **shit**, but is also **shit**.
+
+update: i dont give a shit about this boiler code anymore
